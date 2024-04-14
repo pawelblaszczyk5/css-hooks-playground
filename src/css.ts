@@ -1,6 +1,5 @@
 import { buildHooksSystem, Rule, CssFn } from "@css-hooks/core";
 import { CSSProperties } from "react";
-import { Simplify } from "type-fest";
 
 const unitlessNumbers = new Set([
   "animationIterationCount",
